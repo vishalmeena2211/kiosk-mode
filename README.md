@@ -4,8 +4,9 @@ _One call to put a web page into real kiosk mode: fullscreen, wake lock, orienta
 
 [![npm version](https://img.shields.io/npm/v/kiosk-mode.svg)](https://www.npmjs.com/package/kiosk-mode)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/kiosk-mode)](https://bundlephobia.com/package/kiosk-mode)
-[![license](https://img.shields.io/npm/l/kiosk-mode.svg)](./LICENSE)
-[![types](https://img.shields.io/badge/types-included-3178c6.svg)](./dist/index.d.ts)
+[![license](https://img.shields.io/npm/l/kiosk-mode.svg)](https://github.com/vishalmeena2211/kiosk-mode/blob/main/LICENSE)
+[![types](https://img.shields.io/badge/types-included-3178c6.svg)](https://github.com/vishalmeena2211/kiosk-mode/blob/main/src/index.ts)
+[![GitHub](https://img.shields.io/badge/GitHub-vishalmeena2211%2Fkiosk--mode-181717?logo=github)](https://github.com/vishalmeena2211/kiosk-mode)
 
 Zero dependencies. ESM + CJS + IIFE. TypeScript types included. Works with or without React.
 
@@ -350,6 +351,13 @@ npm test           # builds, then runs node:test against dist/
 The demo at `demo/index.html` loads `../dist/index.global.js` — run `npm run build`, serve the folder (`npx serve .`), and open `demo/index.html`. Fullscreen and wake lock need a real origin, so opening the file directly with `file://` will not show them working.
 
 Issues and pull requests welcome, especially real device reports for the browser support table.
+
+## Links
+
+- **Repository** — [github.com/vishalmeena2211/kiosk-mode](https://github.com/vishalmeena2211/kiosk-mode)
+- **npm** — [npmjs.com/package/kiosk-mode](https://www.npmjs.com/package/kiosk-mode)
+- **Issues & feature requests** — [Report an issue](https://github.com/vishalmeena2211/kiosk-mode/issues)
+- **Changelog** — [releases](https://github.com/vishalmeena2211/kiosk-mode/releases)
 
 ## License
 
